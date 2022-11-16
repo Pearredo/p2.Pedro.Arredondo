@@ -51,6 +51,7 @@ function setup() {
   //facecam background
   capture = createCapture(VIDEO);
   capture.size(1280,720);
+  capture.hide();
   
   //setup clock
   clockDiameter = 200;
